@@ -1,3 +1,5 @@
+require("mysql2");
+
 const { Sequelize } = require("sequelize");
 
 const sequelize = new Sequelize("javis_db", "root", "", {
